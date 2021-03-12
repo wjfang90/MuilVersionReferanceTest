@@ -25,6 +25,7 @@ namespace MuilVersionReferanceTest
 			}
 			catch (Exception ex)
 			{
+				Console.WriteLine("failure:");
 				Console.WriteLine(ex.Message);
 			}
 
