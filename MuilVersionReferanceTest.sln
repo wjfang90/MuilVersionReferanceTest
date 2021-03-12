@@ -15,6 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{E9838CF8-2A9
 		Lib\Nest.dll = Lib\Nest.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Newtonsfot.Json.6.0", "Newtonsfot.Json.6.0", "{405D8E5C-F95D-463E-B4BF-5C8D7FFC80E2}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Newtonsfot.Json.6.0\Newtonsoft.Json.dll = Lib\Newtonsfot.Json.6.0\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +41,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{405D8E5C-F95D-463E-B4BF-5C8D7FFC80E2} = {E9838CF8-2A94-448D-98AD-1C005ADBBFDD}
 	EndGlobalSection
 EndGlobal
